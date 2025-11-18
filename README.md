@@ -80,15 +80,15 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 ## OUTPUT
-![alt text](b.png) 
-![alt text](c.png)
- ![alt text](d.png) 
- ![alt text](e.png) 
- ![alt text](f.png) 
- ![alt text](g.png) 
- ![alt text](h.png)
- ![alt text](j.png)
- ![alt text](k.png)
+<img width="745" height="599" alt="image" src="https://github.com/user-attachments/assets/f546893d-3f40-4567-8556-5b7e2aa216ba" />
+<img width="668" height="589" alt="image" src="https://github.com/user-attachments/assets/88904f1b-916b-4517-81fe-193bcaa787a0" />
+<img width="723" height="590" alt="image" src="https://github.com/user-attachments/assets/d2d0adba-4547-4ed5-85cb-de3e3840ba1c" />
+<img width="710" height="593" alt="image" src="https://github.com/user-attachments/assets/0c858c73-44aa-44c7-8d60-253073490ad8" />
+<img width="786" height="589" alt="image" src="https://github.com/user-attachments/assets/429b2ef3-d0e6-4f5d-b92c-48629ed1963d" />
+<img width="792" height="585" alt="image" src="https://github.com/user-attachments/assets/02ccf562-a440-491c-b10f-e6bd584e5416" />
+<img width="771" height="600" alt="image" src="https://github.com/user-attachments/assets/36f8ec55-52ac-4525-8064-28733a5e5e84" />
+<img width="749" height="603" alt="image" src="https://github.com/user-attachments/assets/d72fe6e7-4db3-4eb1-a520-755f2e612680" />
+<img width="728" height="199" alt="image" src="https://github.com/user-attachments/assets/44100d2b-b736-465c-b32f-3ccff2867c8d" />
 
 
 
