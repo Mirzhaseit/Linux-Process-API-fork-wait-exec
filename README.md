@@ -23,9 +23,8 @@ Test the C Program for the desired output.
 
 # PROGRAM:
 
-## 1. C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
-
-```bash
+## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -46,15 +45,26 @@ int main() {
 
 
 
-## OUTPUT
-<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/cd9b95ba-9a61-4b06-bb96-0586dc6edc60" />
 
 
 
 
-## 2. C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
-```bash
+
+
+
+##OUTPUT
+
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/cd8d7c72-e2a7-410b-9ce6-9e79006304c7" />
+
+
+
+
+
+
+
+## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -77,68 +87,45 @@ printf("Running ps with execlp. Now with path specified\n");
                 puts("child did not exit successfully\n");
         printf("Done.\n");
         exit(0);}
-  ```
-
-
-## OUTPUT
-<img width="745" height="599" alt="image" src="https://github.com/user-attachments/assets/f546893d-3f40-4567-8556-5b7e2aa216ba" />
-<img width="668" height="589" alt="image" src="https://github.com/user-attachments/assets/88904f1b-916b-4517-81fe-193bcaa787a0" />
-<img width="723" height="590" alt="image" src="https://github.com/user-attachments/assets/d2d0adba-4547-4ed5-85cb-de3e3840ba1c" />
-<img width="710" height="593" alt="image" src="https://github.com/user-attachments/assets/0c858c73-44aa-44c7-8d60-253073490ad8" />
-<img width="786" height="589" alt="image" src="https://github.com/user-attachments/assets/429b2ef3-d0e6-4f5d-b92c-48629ed1963d" />
-<img width="792" height="585" alt="image" src="https://github.com/user-attachments/assets/02ccf562-a440-491c-b10f-e6bd584e5416" />
-<img width="771" height="600" alt="image" src="https://github.com/user-attachments/assets/36f8ec55-52ac-4525-8064-28733a5e5e84" />
-<img width="749" height="603" alt="image" src="https://github.com/user-attachments/assets/d72fe6e7-4db3-4eb1-a520-755f2e612680" />
-<img width="728" height="199" alt="image" src="https://github.com/user-attachments/assets/44100d2b-b736-465c-b32f-3ccff2867c8d" />
-
-
-
-## 3. C Program to execute Linux system commands using Linux API system calls exec() family
-
-```bash
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <unistd.h>
-
-int main() {
-    int status;
-    
-    printf("Running ps with execl\n");
-    if (fork() == 0) {
-        execl("ps", "ps", "-f", NULL);
-        perror("execl failed");
-        exit(1);
-    }
-    wait(&status);
-    
-    if (WIFEXITED(status)) {
-        printf("Child exited with status: %d\n", WEXITSTATUS(status));
-    } else {
-        printf("Child did not exit successfully\n");
-    }
-    
-    printf("Running ps with execlp (without full path)\n");
-    if (fork() == 0) {
-        execlp("ps", "ps", "-f", NULL);
-        perror("execlp failed");
-        exit(1);
-    }
-    wait(&status);
-    
-    if (WIFEXITED(status)) {
-        printf("Child exited for execlp with status: %d\n", WEXITSTATUS(status));
-    } else {
-        printf("Child did not exit successfully\n");
-    }
-    
-    printf("Done.\n");
-    return 0;
-}
 ```
-## OUTPUT
-<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/758855b7-fee6-484c-9b9d-dcc68e2a97d6" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##OUTPUT
+
+
+
+
+
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/b9cc44f7-1c75-48e4-9139-752a7ccab2f3" />
+
+
+
+
+
+
+
 
 
 
