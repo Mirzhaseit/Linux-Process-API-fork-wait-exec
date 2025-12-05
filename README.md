@@ -47,7 +47,8 @@ int main() {
 
 
 ## OUTPUT
-<img width="877" height="334" alt="image" src="https://github.com/user-attachments/assets/3d4facfd-717c-414b-b85d-8fb2501389fa" />
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/cd9b95ba-9a61-4b06-bb96-0586dc6edc60" />
+
 
 
 
@@ -137,7 +138,8 @@ int main() {
 }
 ```
 ## OUTPUT
-<img width="880" height="386" alt="image" src="https://github.com/user-attachments/assets/c02ff78a-5bff-4568-a53f-4efe5c16c2a4" />
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/758855b7-fee6-484c-9b9d-dcc68e2a97d6" />
+
 
 
 
